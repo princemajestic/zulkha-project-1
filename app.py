@@ -1,6 +1,7 @@
 import streamlit as st
 
-# Mengatur judul halaman web
+# Mengatur judul halaman webLINK_DIRECT_GD = f"https://drive.google.com/uc?id={1F_f5iIAm1DLrQTgkL7XjkRg0ESoyE6lV}"
+
 st.set_page_config(page_title="Proteksi Video Streamlit", layout="centered")
 
 # Variabel password yang benar
@@ -9,7 +10,7 @@ PASSWORD_BENAR = "1807"  # Ganti dengan password yang Anda inginkan
 # Masukkan ID video Google Drive Anda di bawah ini
 # Contoh: jika link Anda https://google.com, maka ID-nya adalah 1A2B3C4D5E
 ID_VIDEO_GD = "1F_f5iIAm1DLrQTgkL7XjkRg0ESoyE6lV" 
-LINK_DIRECT_GD = f"https://drive.google.com/uc?id={1F_f5iIAm1DLrQTgkL7XjkRg0ESoyE6lV}"
+LINK_DIRECT_GD = f"https://drive.google.com/uc?id={ID_VIDEO_GD}"
 
 # Membuat session state agar status login tersimpan saat halaman dimuat ulang
 if "akses_diberikan" not in st.session_state:
