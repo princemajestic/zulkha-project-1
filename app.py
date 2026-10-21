@@ -1,7 +1,6 @@
 import streamlit as st
 
-# Mengatur judul halaman webLINK_DIRECT_GD = f"https://drive.google.com/uc?id={1F_f5iIAm1DLrQTgkL7XjkRg0ESoyE6lV}"
-
+# Mengatur judul halaman web
 st.set_page_config(page_title="Proteksi Video Streamlit", layout="centered")
 
 # Variabel password yang benar
